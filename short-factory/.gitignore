@@ -1,0 +1,8 @@
+node_modules/
+work/
+out/
+assets/
+.fal_key
+public/voice*.m4a
+public/voice*.mp3
+public/bgm*
