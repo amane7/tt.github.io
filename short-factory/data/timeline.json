@@ -1,0 +1,162 @@
+[
+ {
+  "id": "cut1-1",
+  "audio_start": 0.6,
+  "audio_end": 3.33,
+  "sub_start": 0.5,
+  "sub_end": 3.45,
+  "text": "「まだ大丈夫」の、その前に。"
+ },
+ {
+  "id": "cut1-2",
+  "audio_start": 4.6,
+  "audio_end": 9.01,
+  "sub_start": 4.5,
+  "sub_end": 9.13,
+  "text": "こころの変化は、本人にも、周りにも気づきにくいものです。"
+ },
+ {
+  "id": "cut2-1",
+  "audio_start": 10.4,
+  "audio_end": 13.25,
+  "sub_start": 10.3,
+  "sub_end": 13.37,
+  "text": "本人は「まだ頑張れる」と思い、"
+ },
+ {
+  "id": "cut2-2",
+  "audio_start": 14.2,
+  "audio_end": 17.69,
+  "sub_start": 14.1,
+  "sub_end": 17.7,
+  "text": "周りは「声をかけてよいのか」と迷います。"
+ },
+ {
+  "id": "cut2-3",
+  "audio_start": 17.84,
+  "audio_end": 19.78,
+  "sub_start": 17.74,
+  "sub_end": 19.9,
+  "text": "誰かが悪いわけではありません。"
+ },
+ {
+  "id": "cut3-1",
+  "audio_start": 20.5,
+  "audio_end": 24.82,
+  "sub_start": 20.4,
+  "sub_end": 24.94,
+  "text": "疲れやすさ、集中しにくさ、役割や環境の変化。"
+ },
+ {
+  "id": "cut3-2",
+  "audio_start": 25.2,
+  "audio_end": 28.73,
+  "sub_start": 25.1,
+  "sub_end": 28.85,
+  "text": "小さなサインは、日々の忙しさに埋もれがちです。"
+ },
+ {
+  "id": "cut4-1",
+  "audio_start": 30.5,
+  "audio_end": 34.27,
+  "sub_start": 30.4,
+  "sub_end": 34.39,
+  "text": "そこで、客観的な情報から変化の兆しに気づき、"
+ },
+ {
+  "id": "cut4-2",
+  "audio_start": 35.4,
+  "audio_end": 39.05,
+  "sub_start": 35.3,
+  "sub_end": 39.17,
+  "text": "早めのセルフケアや相談につながれる仕組みを目指しています。"
+ },
+ {
+  "id": "cut5-1",
+  "audio_start": 40.3,
+  "audio_end": 43.35,
+  "sub_start": 40.2,
+  "sub_end": 43.26,
+  "text": "利用するのは、同意いただいた方のデータだけ。"
+ },
+ {
+  "id": "cut5-2",
+  "audio_start": 43.4,
+  "audio_end": 46.76,
+  "sub_start": 43.3,
+  "sub_end": 46.67,
+  "text": "回答は任意で、同意しなくても不利益はありません。"
+ },
+ {
+  "id": "cut5-3",
+  "audio_start": 46.81,
+  "audio_end": 51.11,
+  "sub_start": 46.71,
+  "sub_end": 51.02,
+  "text": "氏名などは管理番号に変換し、目的以外には使いません。"
+ },
+ {
+  "id": "cut5-4",
+  "audio_start": 51.16,
+  "audio_end": 54.78,
+  "sub_start": 51.06,
+  "sub_end": 54.9,
+  "text": "個人情報そのものを、他社へ提供することもありません。"
+ },
+ {
+  "id": "cut6-1",
+  "audio_start": 55.5,
+  "audio_end": 59.66,
+  "sub_start": 55.4,
+  "sub_end": 59.78,
+  "text": "AIの結果だけで、こころの状態を決めつけることもありません。"
+ },
+ {
+  "id": "cut6-2",
+  "audio_start": 60.6,
+  "audio_end": 62.95,
+  "sub_start": 60.5,
+  "sub_end": 63.07,
+  "text": "多様な働き方を反映するには、"
+ },
+ {
+  "id": "cut6-3",
+  "audio_start": 65.0,
+  "audio_end": 68.78,
+  "sub_start": 64.9,
+  "sub_end": 68.9,
+  "text": "一人ひとりの協力が、よりよい分析の土台になります。"
+ },
+ {
+  "id": "cut7-1",
+  "audio_start": 70.5,
+  "audio_end": 73.02,
+  "sub_start": 70.4,
+  "sub_end": 73.14,
+  "text": "まず、詳細をご確認ください。"
+ },
+ {
+  "id": "cut7-2",
+  "audio_start": 74.0,
+  "audio_end": 77.29,
+  "sub_start": 73.9,
+  "sub_end": 77.41,
+  "text": "そのうえで、同意するか、同意しないかを、"
+ },
+ {
+  "id": "cut7-3",
+  "audio_start": 79.8,
+  "audio_end": 82.75,
+  "sub_start": 79.7,
+  "sub_end": 82.87,
+  "text": "ご自身の意思で選び、回答してください。"
+ },
+ {
+  "id": "cut8-1",
+  "audio_start": 85.4,
+  "audio_end": 88.99,
+  "sub_start": 85.3,
+  "sub_end": 89.11,
+  "text": "こころの変化を見逃さず、みんなでつくっていきましょう。"
+ }
+]

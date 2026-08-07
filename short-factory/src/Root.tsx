@@ -12,9 +12,9 @@ export const RemotionRoot: React.FC = () => (
     width={1920}
     height={1080}
     defaultProps={{
-      // audioSrc: 'voice.m4a', // TTS収録後に有効化
+      audioSrc: 'voice.m4a', // VOICEVOX No.7「アナウンス」・EQ+loudnorm済み(work/参照)
       // bgmSrc: 'bgm.m4a',
-      // aiVoiceLabel: '音声はAIで生成しています',
+      aiVoiceLabel: '音声はAIで生成しています(VOICEVOX:No.7)',
     }}
   />
 );

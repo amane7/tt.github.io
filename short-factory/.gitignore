@@ -6,3 +6,6 @@ assets/
 public/voice*.m4a
 public/voice*.mp3
 public/bgm*
+# 完成ナレーションだけは追跡する(VOICEVOX合成・秘匿情報なし。
+# コンテナが揮発するリモート環境でTTS成果を失わないため)
+!public/voice.m4a
