@@ -146,9 +146,12 @@ export const Bubble: React.FC<{
 
 // ---- 字幕レイヤー(編集指示書 §5)----
 // 黒文字+白半透明帯。セーフマージン: 左右8%・下端8%以上。
-export const SubtitleLayer: React.FC<{ subtitles: { start: number; end: number; text: string }[] }> = ({
-  subtitles,
-}) => {
+export const SubtitleLayer: React.FC<{
+  subtitles: { start: number; end: number; text: string }[];
+  // 字幕を高めに出す時間帯(秒)。絵コンテ画像の下部に焼き込みテキストがある
+  // カットで、バナーとの重なりを避けるために使う。
+  raisedRanges?: [number, number][];
+}> = ({ subtitles, raisedRanges = [] }) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps;
@@ -156,13 +159,14 @@ export const SubtitleLayer: React.FC<{ subtitles: { start: number; end: number; 
   const lead = 3 / fps;
   const active = subtitles.find((s) => t >= s.start - lead && t <= s.end + lead);
   if (!active) return null;
+  const raised = raisedRanges.some(([a, b]) => t >= a && t < b);
   return (
     <div
       style={{
         position: 'absolute',
         left: width * 0.08,
         right: width * 0.08,
-        bottom: height * 0.085,
+        bottom: height * (raised ? 0.215 : 0.085),
         display: 'flex',
         justifyContent: 'center',
         pointerEvents: 'none',
@@ -170,7 +174,7 @@ export const SubtitleLayer: React.FC<{ subtitles: { start: number; end: number; 
     >
       <div
         style={{
-          background: 'rgba(255,255,255,0.88)',
+          background: 'rgba(255,255,255,0.94)',
           border: `2px solid rgba(43,43,43,0.15)`,
           borderRadius: 16,
           padding: '14px 34px',

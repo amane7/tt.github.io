@@ -32,7 +32,15 @@ export const MentalHealth90s: React.FC<{
           </Sequence>
         );
       })}
-      <SubtitleLayer subtitles={subtitles} />
+      <SubtitleLayer
+        subtitles={subtitles}
+        // 絵コンテ画像の下部バナーが「画の主メッセージ」であるカットだけ字幕を持ち上げる。
+        // cut3/4は持ち上げると図版の項目リストに被るため標準位置(下部ノートへの
+        // 一時的な重なりを許容)。cut1/5/6は下部中央が空いているため標準位置が正
+        raisedRanges={[2, 8]
+          .filter((n) => storyboard[n])
+          .map((n) => [CUT_TIMES[n - 1], CUT_TIMES[n]] as [number, number])}
+      />
       {aiVoiceLabel && (
         <div
           style={{
